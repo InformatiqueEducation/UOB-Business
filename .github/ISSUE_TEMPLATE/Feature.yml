@@ -4,14 +4,8 @@ title: "[Feature-Task]"
 labels: 'enhancement'
 assignees: 'mohamedmtc'
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Before creating new task, please review  the behaviour in the existing system. 
-        
-        ---
-
-        now we will set the Defination of ready points for the new task.
+ - type: markdown
+  value: "## Welcome!"
   - type: input
     id: os
     attributes:
