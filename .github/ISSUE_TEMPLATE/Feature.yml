@@ -18,7 +18,7 @@ body:
       description: "The name of the bsuiness file in the application layer"
       placeholder: "Get .... _CMPLX"
     validations:
-      required: true 
+      required: false 
   - type: dropdown
     id: requesttype
     attributes:
@@ -28,7 +28,7 @@ body:
         - Command
         - Query
     validations:
-      required: true 
+      required: false 
   - type: textarea
     id: Purposeofthetask
     attributes:
