@@ -10,5 +10,86 @@ body:
         Before creating new task, please review  the behaviour in the existing system. 
         
         ---
-        
+
         now we will set the Defination of ready points for the new task.
+  - type: input
+    id: os
+    attributes:
+      label: Bisuness File 
+      description: "The name of the bsuiness file in the application layer"
+      placeholder: "Get .... _CMPLX"
+    validations:
+      required: true 
+  - type: dropdown
+    id: requesttype
+    attributes:
+      label: Request Type
+      description: the type of the request?
+      options:
+        - Command
+        - Query
+    validations:
+      required: true  
+  - type: textarea
+    id: Purposeofthetask
+    attributes:
+      label: Purpose of this function
+      description: What is the purpose?
+    validations:
+      required: false  
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Function Preconditions
+      description: What are the Preconditions?
+    validations:
+      required: false
+  - type: textarea
+    id: functionsteps
+    attributes:
+      label: Function Steps
+      description: What are the Function Steps?
+    validations:
+      required: false
+  - type: textarea
+    id: acceptancecriteria 
+    attributes:
+      label: Acceptance Criteria
+      description: What is Acceptance Criteria?
+    validations:
+      required: false        
+  - type: textarea
+    id: functionoutput 
+    attributes:
+      label: Function Output
+      description: What is Function Output?
+    validations:
+      required: false      
+   - type: textarea
+    id: notes 
+    attributes:
+      label: Function Notes
+      description: What are Function Notes?
+    validations:
+      required: false
+   - type: textarea
+    id: erd 
+    attributes:
+      label: Database Diagram
+      description: What is the database diagram?
+    validations:
+      required: false
+   - type: textarea
+    id: requestinputs 
+    attributes:
+      label: Request inputs
+      description: Request inputs if exists?
+    validations:
+      required: false 
+   - type: textarea
+    id: notes 
+    attributes:
+      label: Notes
+      description: Notes if exists?
+    validations:
+      required: false 
